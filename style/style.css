@@ -1,0 +1,500 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+#level1{
+    background: rgba(26, 37, 48, 0.8) url('../images/Rectangle\ 1.png') no-repeat center center/cover;
+    background-position: 40% 25%;
+    background-blend-mode: darken;
+    padding-top: 39px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+#logo{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #B89B5E;
+    display: inline-block;
+}
+#navbar{
+    float: right;
+    justify-content: space-evenly;
+}
+h1{
+    padding: 0px;
+    margin-top: 39px;
+    margin: 0px;
+}
+
+.navbar{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 16px 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.navbar:hover {
+    background-color: #B89B5E;
+}
+
+#mottobox {
+    margin-top: 144px;
+    padding: 0px;
+    text-align: center;
+}
+
+#motto {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    padding: 20px 20px;
+    background-color: #B89B5E;
+    
+
+
+}
+
+.contactbox{
+    width: 149px;
+    height: 51px;
+    margin: 0px auto;
+    padding-top: 8px;
+
+}
+
+.contact:hover {
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+}
+
+#info{
+
+    background-color: #293138;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.info{
+    width: 150px;
+    height: 150px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #B89B5E;
+    margin: 100px 20px;
+    text-align: center;
+
+}
+#infocontainer{
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 0px;
+}
+#WhoWeAre{
+    background-color: rgba(26, 37, 48);
+    padding: 100px 50px;
+    text-align: center;
+}
+h2{
+    font-family: Lora;
+    Font-style: Regular;
+    Font-size: 35px;
+    Line-height: 45px;
+    Line-height: 100%;
+    color: white;
+}
+p{
+    Font-family: Nunito Sans;
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 30px;
+    Line-height: 137%;
+    color: white;
+    }
+#AreaOfStudy{
+    background-color: #293138;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#AreaContainer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+
+}
+.AreaContainer{
+    width: 33.3%;
+    text-align: center;
+    padding: 20px 20px;
+
+}
+.imagesbox{
+    border-style:solid;
+    border-width: 2px;
+    border-color: #B89B5E;
+    padding: 15px 15px;
+
+}
+h3{
+    Font-family: Nunito Sans;
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 22px;
+    Line-height: 100%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#request{
+    background-color: rgba(26, 37, 48);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#meet1{
+    text-align: center;
+    background-color: #293138;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#meetbox{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+#meet1 h3{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+#meet1 p{
+    margin-top: 0px;
+}
+#comments1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(26, 37, 48); 
+}
+.box{
+    display: none;
+}
+
+.commentbox{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+.comment{
+    text-align: center;
+    width: 30%;
+    height: 269px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #B89B5E;
+    padding: 20px 20px;
+
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 50px;
+}
+.active {
+    background-color: #717171;
+}
+
+#footer{
+    background: rgba(26, 37, 48, 0.8) url('../images/Rectangle\ 4\ \(1\).png') no-repeat center center/cover;
+    background-blend-mode: darken;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#footer h1{
+    Font-family: Lora;
+    Font-style: Bold;
+    Font-size: 24px;
+    Line-height: 31px;
+    Line-height: 100%;
+    text-align: center;
+    color: #B89B5E;
+}
+#contactinfo{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+.contactinfo{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.contactimg{
+    margin-right: 10px; 
+    margin-top: 18px;
+
+}
+#foots0{
+    background-color: rgba(26, 37, 48);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    margin-top: 0px;
+}
+#foots1{
+    display: flex;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 80%;
+
+}
+#foots2{
+    float: right;
+
+}
+.socials{
+    padding: 20px 20px;
+}
+.copy{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #B89B5E;
+}
+#menuBar{
+    position: fixed;
+    top: 30px;
+    right: 10px;
+}
+@media screen and (min-width:1000px){
+    #menuBar{
+        display: none;
+    }
+
+}
+@media screen and (max-width:1000px){
+    
+    #navbar{
+        float: unset;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-top: 30px;
+    }
+    #menuBar{
+        display: none;
+    }
+    #foots0{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #foots2{
+        float: unset;
+    
+    }
+    #foots1{
+        text-align: center;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    #foots2{
+        margin: 0px auto;
+        text-align: center;
+
+    }
+    #level{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    #footer{
+    }
+
+}
+
+@media screen and (max-width:750px){
+
+    #infocontainer{
+        display: block;
+        text-align: center;
+        padding: 50px 50px;
+    }
+    .info{
+        margin: 20px auto;
+    }
+    #AreaContainer{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .AreaContainer{
+        margin: 10px auto;
+        width: 80%;
+
+    }
+    #AreaOfStudy{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #meet1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #meetbox{
+        display: block;
+    }
+    .meetbox{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #comments1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .commentbox{
+        display: block;
+        text-align: center;
+    
+    }
+    .comment{
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+    
+    }
+    .box{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #WhoWeAre{
+        padding: 50px 50px;
+    }
+    #WhoWeAre{
+        padding: 50px 50px;
+    }
+    #foots0{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #foots2{
+        float: unset;
+    
+    }
+    #foots1{
+        text-align: center;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    #foots2{
+        margin: 0px auto;
+        text-align: center;
+
+    }
+    #motto {
+        font-weight: 400px;
+        font-size: 40px;
+
+    }
+    #navbar{
+        display: none;
+    } 
+    #menuBar{
+        display: unset;
+    }
+    
+
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 37, 48);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.wel {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    
+}
+.wel:hover {
+    color: #B89B5E;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 20px;
+    margin-left: 50px;
+    background: none;
+    color: white;
+    border: 0;
+}
+.close:hover {
+    color: #B89B5E;
+}
+
+  
+  
+  
